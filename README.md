@@ -1,5 +1,3 @@
-# hello-world
-Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
-
-This repository is built step by step in the tutorial.
+# Water Transfer Robot Fault Detection Using K-menas
+### 1. 프로젝트 기간 : 2020.01 ~ 2020.12 
+### 2. 프로젝트 목표 : 
