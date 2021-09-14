@@ -62,12 +62,60 @@
   > <img src="./images/1st_error.png">
   > <h6>[1st order error data]</h6>
   > 
-  > 초기에 낮은 주파수 영역에서 발생하는 이상치
+  > - 초기에 낮은 주파수 영역에서 발생하는 이상치
 
 
   > <img src="./images/2nd_error.png">
-  > <h6>[1st order error data]</h6>
+  > <h6>[2nd order error data]</h6>
   > 
-  > 초기에 낮은 주파수 영역에서 발생하는 이상치
-> 5. 데이터 특징 및 획득
-> 6. 신경망 모델 구현
+  > - 1차 오류 데이터에서 생긴 오류값들 증폭
+  > - 이상치 범위 증가 
+
+
+  > <img src="./images/3rd_error.png">
+  > <h6>[3rd order error data]</h6>
+  > 
+  > - 전 주파수 영역에서 magnitude 값이 매우 크게 증가
+  > - 웨이퍼 이송 로봇 내부의 잦은 충격과 진동으로 인한 비정상적 신호들 발생 결과
+  > - 장비의 고장 의미
+  
+ 
+#### 3.6. 데이터 특징 추출
+  > - 정상 데이터와 각 단계별 오류 데이터들의 특징을 찾기 위해 각 데이터에 K-means 알고리즘 적용
+  > - 이 실험에서 각 데이터 셋트에 알고리즘을 적용하여 그 결과를 분석하여 분류의 특징 추출
+  > - 여러 k 값으로 실험하여 각 군집의 중심점 비교한 결과 k=4 인 경우가 가장 적절하다고 판단
+  > 
+  > - 각 데이터 종류마다 임의의 100개의 데이터들에 K-means 알고리즘을 적용하여 중심점 plot
+ 
+
+  > <img src="./images/Center_points_of_normal_data.png">
+  > <h6>[Center points of normal data(k=4)]</h6>
+  
+
+  > <img src="./images/Center_points_of_1st_error.png">
+  > <h6>[Center points of 1st error]</h6>
+  
+  
+  > <img src="./images/Center_points_of_2nd_error.png">
+  > <h6>[Center points of 2nd error]</h6>
+  
+  
+  > <img src="./images/Center_points_of_3rd_error.png">
+  > <h6>[Center points of 3rd error]</h6>
+
+
+#### 3.7 신경망 모델 구현
+  > - 위의 과정들을 통해 얻은 특징(군집의 중심점)을 얻음
+  > - 신경망에 데이터를 적용시키기 위해 위의 과정에서 얻은 4개의 중심점의 직교좌표 쌍(x, y)를 x 크기순으로 재배열
+  > - 이 값들을 입력받아 각 데이터들을 분류하는 신경망 모델 설계
+
+
+  > <img src="./images/network.png"  width = 600>
+
+### 4. 프로젝트 결과 :
+
+  > <img src="./images/result1.PNG" >
+
+
+
+  > <img src="./images/result2.PNG" >
