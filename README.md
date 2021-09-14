@@ -114,8 +114,7 @@
 
 ### 4. 프로젝트 결과 :
 
-  > <img src="./images/result1.PNG" >
+<img src="./images/result1.PNG" >
 
 
-
-  > <img src="./images/result2.PNG" >
+<img src="./images/result2.PNG" >
