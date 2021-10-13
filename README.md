@@ -118,7 +118,7 @@
   > <img src="./images/network.png"  width = 600>
 
 ### 4. 프로젝트 결과 :
-
+  - 5번의 실험을 
 <img src="./images/result1.PNG" >
 
 
