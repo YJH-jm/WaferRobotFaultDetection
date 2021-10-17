@@ -55,7 +55,7 @@
   > <img src="./images/Normalized_FFT_X.png" title="Normalized_FFT_X">
   > <h6>[Preprocessed x-axis data]</h6>
   
-  > - 0.4 이하의 데이터를 노이즈 처리하여 제거
+  > - 0.4 이하의 데이터를 노이즈 처리하여 제거함
   <br>
 
 #### 3.5. 오류 데이터 구성
@@ -81,7 +81,7 @@
   > <h6>[3rd order error data]</h6>
   > 
   > - 전 주파수 영역에서 magnitude 값이 매우 크게 증가
-  > - 웨이퍼 이송 로봇 내부의 잦은 충격과 진동으로 인한 비정상적 신호들 발생 결과
+  > - 웨이퍼 이송 로봇 내부의 잦은 충격과 진동으로 인한 비정상적 신호들이 발생한 결과
   > - 장비의 고장 의미
   
  
