@@ -74,7 +74,7 @@
   > <h6>[2nd order error data]</h6>
   > 
   > - 1차 오류 데이터에서 생긴 오류값들 증폭
-  > - 이상치 범위 증가 
+  > - 이상치 x축 범위 증가 
 
 
   > <img src="./images/3rd_error.png">
