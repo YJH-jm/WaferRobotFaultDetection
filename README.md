@@ -1,4 +1,4 @@
-# Water Transfer Robot Fault Detection Using K-means and Neural Network
+# Wafer Transfer Robot Fault Detection Using K-means and Neural Network
 ### 1. 프로젝트 기간 : 
 - 2019.01 ~ 2020.12 (데이터 신뢰성 문제로 2020년 데이터 재획득, 가공) 
 
