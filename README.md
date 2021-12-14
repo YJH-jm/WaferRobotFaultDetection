@@ -141,25 +141,25 @@
 - 이 값들을 입력받아 각 데이터들을 분류하는 인공 신경망 모델 설계
 - 위에서 얻은 특징을 사람이 아니라 좌표값만으로 판단 해주는 모델을 만들어주기 위해 신경망 사용
 
-<img src="./images/network.png"  width = 600>
+<p align = center><img src="./images/network.png"  width = 60%></p>
 
 <br>
 <br>
 
 ### 5. 프로젝트 결과 :
   - 실험을 5번 반복한 결과
-<p align = center><img src="./images/result1.PNG"  width = 60%></p>
+<p align = center><img src="./images/new_result.png"  width = 60%></p>
 
 <br>
-
-<p align = center><img src="./images/result2.PNG" width=60%></p>
+<!-- 
+<p align = center><img src="./images/result2.PNG" width=60%></p> -->
 
 
 <br>
 <br>
 
-### 6. 프로젝트 개선점 :
+<!-- ### 6. 프로젝트 개선점 :
 - 장비의 고장이 어떤 점을 원인으로 하는지 명확하게 알 수 없음
 - 한 사이클이 끝나기 전, 실시간으로 장비의 이상을 알 수 있는 방법에 대한 연구
 
-- layer를 늘리는 것보다 unit의 수를 늘리는 것이 더 효과적 
+- layer를 늘리는 것보다 unit의 수를 늘리는 것이 더 효과적  -->
